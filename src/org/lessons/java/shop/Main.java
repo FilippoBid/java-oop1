@@ -3,8 +3,8 @@ package org.lessons.java.shop;
 public class Main {
     public static void main(String[] args) {
 
-        Product patate = new Product("patate","patate fresche",2.40);
-        Product cane = new Product("cane","cane in scatola",10.40);
+        Product patate = new Product("patate","patate fresche",2.40,22);
+        Product cane = new Product("cane","cane in scatola",10.40,22);
 
         System.out.println(patate.getData());
         System.out.println(patate.getVatPrice());
