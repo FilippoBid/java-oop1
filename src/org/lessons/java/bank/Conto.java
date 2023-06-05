@@ -19,15 +19,21 @@ public class Conto {
     public String getData() {
         String data = "Name: " + name + "\n" +"ID code: " + idCode + "\n" + "balance: " + money + "\n";
         return data;
-    } public String getCode() {
+    } public int getCode() {
 
-        return = this.idCode;
-    } public String getMoney() {
-
-        return =String this.money;
+        int data = this.idCode;
+        return data;
+    } public double getMoney() {
+        double data = this.money;
+        return data;
     }
 
     public void setName(String name) {
         this.name = name;
+    };
+    public void addMoney(double amount) {
+        this.money = this.money + amount;
+    };public void takeMoney(double amount) {
+        this.money = this.money - amount;
     };
 }
